@@ -1,7 +1,7 @@
 {
   "name": "sass-comment",
   "main": "./lib/atom-sass-comment",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "SASS, SCSS Somment Snippet for Atom editor.",
   "keywords": [],
   "activationCommands": {},
