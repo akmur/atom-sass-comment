@@ -1,0 +1,139 @@
+'.source.scss, .source.sass':
+  '=== .classname ===':
+    'prefix': 'c-title'
+    'body': '''
+        //  ====================   ${1:.classname}  ====================
+
+        //	created by:		${2:Jonathan Bergson} ( ${3:jonathan@bergson.me} )
+        //	creation data:	${4:July 03, 2015}
+
+        //	upadate by:		${2:Jonathan Bergson} ( ${3:jonathan@bergson.me} )
+        //	update data:	${4:July 06, 2015}
+
+        //  ${5:1. Your text}
+        //  ${6:2. Your text}
+
+        //  ============================================================
+    '''
+
+
+
+
+
+
+  '/** Comment **/':
+    'prefix': 'c-info'
+    'body': '''
+        /**
+         *
+         * 	${1:todo: note: fixme: changes: future: example:}
+         * 		${2:1. Your text}
+         * 		${3:2. Your text}
+         *
+         **/
+    '''
+
+
+
+
+
+
+  '// todo: comment.':
+    'prefix': 'c-section-todo'
+    'body': '''
+        // --------------------------------------------------------------------------------
+        // todo: ${1: Tem como objetivo especificar uma tarefa pendente que é necessária}.
+        // --------------------------------------------------------------------------------
+    '''
+
+  '// note: comment.':
+    'prefix': 'c-section-note'
+    'body': '''
+        // --------------------------------------------------------------------------------
+        // note: ${1: Apenas uma observação sobre o código}.
+        // --------------------------------------------------------------------------------
+    '''
+
+  '// fixme: comment.':
+    'prefix': 'c-section-fixme'
+    'body': '''
+        // --------------------------------------------------------------------------------
+        // fixme: ${1: Se trata de um bug ou erro de desemvolvimento já identificado que está esperando por correção}.
+        // --------------------------------------------------------------------------------
+    '''
+
+  'changes: comment.':
+    'prefix': 'c-section-changes'
+    'body': '''
+        // --------------------------------------------------------------------------------
+        // changes: ${1: Uma alteração que acaba de ser realizada}.
+        // --------------------------------------------------------------------------------
+    '''
+
+  '// future: comment.':
+    'prefix': 'c-section-future'
+    'body': '''
+        // --------------------------------------------------------------------------------
+        // future: ${1: Uma expesificação que pode ser implementada em algum momento}.
+        // --------------------------------------------------------------------------------
+    '''
+
+  '// example: comment.':
+    'prefix': 'c-section-example'
+    'body': '''
+        // --------------------------------------------------------------------------------
+        // example: ${1: Um trecho de exemplo, para ilustrar a aplicação e uso de um código}.
+        // --------------------------------------------------------------------------------
+    '''
+
+
+
+
+
+  '* todo: comment.':
+    'prefix': 'c-inline-todo'
+    'body': '''
+        /**
+         * todo: ${1: Tem como objetivo especificar uma tarefa pendente que é necessária}.
+         **/
+    '''
+
+  '* note: comment.':
+    'prefix': 'c-inline-note'
+    'body': '''
+        /**
+         * note: ${1: Apenas uma observação sobre o código}.
+         **/
+    '''
+
+  '* fixme: comment.':
+    'prefix': 'c-inline-fixme'
+    'body': '''
+        /**
+         * fixme: ${1: Se trata de um bug ou erro de desemvolvimento já identificado que está esperando por correção}.
+         **/
+    '''
+
+  '* changes: comment.':
+    'prefix': 'c-inline-changes'
+    'body': '''
+        /**
+         * changes: ${1: Uma alteração que acaba de ser realizada}.
+         **/
+    '''
+
+  '* future: comment.':
+    'prefix': 'c-inline-future'
+    'body': '''
+        /**
+         * future: ${1: Uma expesificação que pode ser implementada em algum momento}.
+         **/
+    '''
+
+  '* example: comment.':
+    'prefix': 'c-inline-example'
+    'body': '''
+        /**
+         * example: ${1: Um trecho de exemplo, para ilustrar a aplicação e uso de um código}.
+         **/
+    '''

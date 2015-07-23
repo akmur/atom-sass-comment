@@ -1,0 +1,14 @@
+{
+  "name": "sass-comment",
+  "main": "./lib/atom-sass-comment",
+  "version": "0.0.0",
+  "description": "SASS, SCSS Somment Snippet for Atom editor.",
+  "keywords": [],
+  "activationCommands": {},
+  "repository": "https://github.com/JonathanBergson/atom-sass-comment",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
