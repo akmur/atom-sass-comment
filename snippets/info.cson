@@ -1,0 +1,15 @@
+'.source.scss, .source.sass':
+  '/** Comment **/':
+    'prefix': 'c-info'
+    'body': '''
+        /**
+         *
+         * 	${1:todo: note: fixme: changes: future: example:}
+         * 		${2:1. Your text}
+         * 		${3:2. Your text}
+         *
+         **/
+
+
+
+    '''
