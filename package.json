@@ -1,11 +1,11 @@
 {
-  "name": "sass-comment",
-  "main": "./lib/atom-sass-comment",
+  "name": "sass-style-comments",
+  "main": "./lib/atom-sass-style-comment",
   "version": "1.4.0",
-  "description": "SASS, SCSS Comment Snippet for Atom editor.",
+  "description": "SASS Style Comment Snippets for Atom editor.",
   "keywords": [],
   "activationCommands": {},
-  "repository": "https://github.com/JonathanBergson/atom-sass-comment",
+  "repository": "https://github.com/akmur/atom-sass-style-comment",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

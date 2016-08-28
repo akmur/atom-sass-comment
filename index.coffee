@@ -1,1 +1,1 @@
-module.exports = require "./lib/atom-sass-comment.coffee"
+module.exports = require "./lib/atom-sass-style-comment.coffee"

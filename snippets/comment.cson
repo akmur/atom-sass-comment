@@ -1,0 +1,57 @@
+'.source.scss, .source.sass, .source.js':
+  'Comment Section Title':
+    'prefix': 'c-t'
+    'body': '''
+        // --------------------------- ${1:Title} ------------------------------
+
+        // created by:  ${2:Alessandro Muraro} ( ${3:akmuraro@gmail.com} )
+        // creation data:  ${4: 00 Month 2016}
+
+        // upadate by:  ${2:Alessandro Muraro} ( ${3:akmuraro@gmail.com} )
+        // update data:  ${4: 00 Month 2016}
+
+        // ${5:1. Your text}
+        // ${6:2. Your text}
+
+        // ---------------------------------------------------------------------
+
+
+    '''
+
+  'Comment Block':
+    'prefix': 'c-b'
+    'body': '''
+        // ---------------------------------------------------------------------
+        // ${1:Note}
+        // ---------------------------------------------------------------------
+    '''
+
+
+
+'.source.jade, .source.pug':
+  'Comment Section Title':
+    'prefix': 'c-t'
+    'body': '''
+        //---------------------------- ${1:Title} ------------------------------
+
+        //- created by:  ${2:Alessandro Muraro} ( ${3:akmuraro@gmail.com} )
+        //- creation data:  ${4: 00 Month 2016}
+
+        //- upadate by:  ${2:Alessandro Muraro} ( ${3:akmuraro@gmail.com} )
+        //- update data:  ${4: 00 Month 2016}
+
+        //- ${5:1. Your text}
+        //- ${6:2. Your text}
+
+        //----------------------------------------------------------------------
+
+
+    '''
+
+  'Comment Block':
+    'prefix': 'c-b'
+    'body': '''
+        //----------------------------------------------------------------------
+        //- ${1:Note}
+        //----------------------------------------------------------------------
+    '''
