@@ -2,7 +2,7 @@
 
 ## Usage
 Type the shortcuts c-t for title, c-b for blocks.
-Works in Jade and Sass/Scss
+Works in Jade, JavaScript and Sass/Scss
 
 ### [c-t]
 
